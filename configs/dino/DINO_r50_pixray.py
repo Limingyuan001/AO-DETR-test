@@ -36,10 +36,10 @@ model = dict(
         norm_cfg=dict(type='BN', requires_grad=False),
         norm_eval=True,
         style='pytorch',
-        init_cfg=dict(type='Pretrained',
-                      checkpoint=r'E:\D2E\Projects\DINO_mmdet3\pretrained_model\resnet50-0676ba61.pth')
+        # init_cfg=dict(type='Pretrained',
+                      # checkpoint=r'E:\D2E\Projects\DINO_mmdet3\pretrained_model\resnet50-0676ba61.pth')
 
-        # init_cfg=dict(type='Pretrained', checkpoint='torchvision://resnet50')
+        init_cfg=dict(type='Pretrained', checkpoint='torchvision://resnet50')
     ),
     neck=dict(
         type='ChannelMapper',
