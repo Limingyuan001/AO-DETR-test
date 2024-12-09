@@ -34,7 +34,7 @@ Unique-ID = {WOS:001351423100001},
 }
 ```
 
-![architecture.jpg](./assets/architecture.jpg)
+![architecture.jpg](./assets/1733723772081-architecture.jpg)
 
 🚀️ 🚀️ 🚀️ PIXray Dataset Download
 
