@@ -1,7 +1,7 @@
 # **AO-DETR: Anti-Overlapping DETR for X-Ray Prohibited Items Detection**
 
 [[Paper]](https://ieeexplore.ieee.org/document/10746383/)
-[[知乎]](https://)
+[[TNNLS24]AO-DETR: 针对X射线图像违禁品检测的抗重叠DETR - 知乎](https://zhuanlan.zhihu.com/p/5403273899))
 
 ## User Guide
 
