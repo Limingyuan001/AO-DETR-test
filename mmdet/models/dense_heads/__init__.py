@@ -51,42 +51,8 @@ from .yolo_head import YOLOV3Head
 from .yolof_head import YOLOFHead
 from .yolox_head import YOLOXHead
 
-# from .dinov2_head import DINOHeadv2
-# from .dinov2_head_2 import DINOHeadv2
-# from .dinov2_head_3 import DINOHeadv2
-# from .dinov2_head_4 import DINOHeadv2
-# from .dinov2_head_5 import DINOHeadv2
 from .dinov2_head_6 import DINOHeadv2
 
-# from .dinov3_head import DINOHeadv3  # 'DINOHeadv3' 用于AO-DETRv2 # time 3/20 2024
-# from .dinov3_head_2 import DINOHeadv3  # 'DINOHeadv3' 用于AO-DETRv2 # time 3/20 2024
-# from .dinov3_head_3 import DINOHeadv3  # 'DINOHeadv3' 用于AO-DETRv2 # time 3/20 2024 高效掩码
-from .dinov3_head_4 import DINOHeadv3  # 'DINOHeadv3' 用于AO-DETRv2 # time 3/20 2024 进一步对simmax类别内部的对角线掩码 使用的是0.01阈值掩码，基本好用，但是偶尔出nan
-# from .dinov3_head_5 import DINOHeadv3  # 'DINOHeadv3' 用于AO-DETRv2 # time 4/7 2024 进一步对simmax类别内部的对角线掩码，使用maskeye进行掩码，不会出nan但是loss会变小
-# from .dinov3_head_6 import DINOHeadv3# 'DINOHeadv3' 用于AO-DETRv2 在AO-DETR的dinov2head6上添加对比学习# time 4/13 2024
-# from .dinov3_head_7 import DINOHeadv3# 'DINOHeadv3' 用于AO-DETRv2 在AO-DETR的dinov2head6基础上取消rank-weight time 4/14 2024
-# from .dinov3_head_infoNCE2 import DINOHeadv3
-
-
-from .deformable_detr_head_4 import DeformableDETRHeadv3  # 用于AO-DETRv2的泛化性 time 3/26 2024 为了测试泛化性，在deform-detr的head上进行移植
-from .dab_detr_head_4 import DABDETRHeadv3  # 用于AO-DETRv2的泛化性 time 3/27 2024 为了测试泛化性，在dab-detr的head上进行移植
-
-
-# from .dinov4_head_4 import DINOHeadv4
-# from .dinov4_head_5 import DINOHeadv4
-# from .dinov4_head_6 import DINOHeadv4
-# from .dinov4_head_7 import DINOHeadv4
-# from .dinov4_head_8 import DINOHeadv4
-# from .dinov4_head_9 import DINOHeadv4
-# from .dinov4_head_10 import DINOHeadv4
-# from .dinov4_head_11 import DINOHeadv4
-from .dinov4_head_12 import DINOHeadv4  # CSPCL 最佳184 dino 67.5 layer all
-# from .dinov4_head_infoNCE import DINOHeadv4
-# from .dinov4_head_infoNCE2 import DINOHeadv4
-from .ao_detrv4_head_12 import AODETRHeadv4
-
-# from .deformable_detrv4_head_10 import DeformableDETRHeadv4  # 用于MMCLv2的泛化性 time 9/10 2024 为了测试泛化性，在deform-detr的head上进行移植
-from .deformable_detrv4_head_12 import DeformableDETRHeadv4
 
 
 __all__ = [
@@ -105,11 +71,4 @@ __all__ = [
     'CondInstMaskHead', 'RTMDetInsHead', 'RTMDetInsSepBNHead',
     'BoxInstBboxHead', 'BoxInstMaskHead', 'ConditionalDETRHead', 'DINOHead',
     'ATSSVLFusionHead', 'DABDETRHead',
-    'DINOHeadv2',
-    'DINOHeadv3',
-    'DeformableDETRHeadv3',
-    'DABDETRHeadv3',
-    'DINOHeadv4',
-    'DeformableDETRHeadv4',
-    'AODETRHeadv4'
 ]
