@@ -1,4 +1,9 @@
-# **User Guide**
+# **AO-DETR: Anti-Overlapping DETR for X-Ray Prohibited Items Detection**
+
+[[Paper]](https://ieeexplore.ieee.org/document/10746383/)
+[[知乎]](https://)
+
+## User Guide
 
 想要运行AO-DETR只需要运行tools/train_ao-detr.py
 
@@ -11,12 +16,22 @@ PIXray，OPIXray，HIXray数据集都可以运行，只需要更换config文件�
 **本工作的论文《### [AO-DETR: Anti-Overlapping DETR for X-Ray Prohibited Items Detection](https://ieeexplore.ieee.org/document/10746383/)》已经录用在TNNLS期刊上，目前处于Early Access状态！！！
 如果我的工作对您有帮助的话，欢迎使用以下BibTex进行引用：**
 
-> @article{ WOS:001351423100001, Author = {Li, Mingyuan and Jia, Tong and Wang, Hao and Ma, Bowen and Lu, Hui and Lin, Shuyang and Cai, Da and Chen, Dongyue}, Title = {AO-DETR: Anti-Overlapping DETR for X-Ray Prohibited Items Detection}, Journal = {IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS}, Year = {2024}, Month = {2024 NOV 6}, DOI = {10.1109/TNNLS.2024.3487833}, EarlyAccessDate = {NOV 2024}, ISSN = {2162-237X}, EISSN = {2162-2388}, ResearcherID-Numbers = {Lin, Shuyang/LQI-9244-2024 ma, bowen/HGU-6694-2022 Li, Mingyuan/HKF-0730-2023}, Unique-ID = {WOS:001351423100001}, }
-
-`@article{ WOS:001351423100001, Author = {Li, Mingyuan and Jia, Tong and Wang, Hao and Ma, Bowen and Lu, Hui and Lin, Shuyang and Cai, Da and Chen, Dongyue}, Title = {AO-DETR: Anti-Overlapping DETR for X-Ray Prohibited Items Detection}, Journal = {IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS}, Year = {2024}, Month = {2024 NOV 6}, DOI = {10.1109/TNNLS.2024.3487833}, EarlyAccessDate = {NOV 2024}, ISSN = {2162-237X}, EISSN = {2162-2388}, ResearcherID-Numbers = {Lin, Shuyang/LQI-9244-2024 ma, bowen/HGU-6694-2022 Li, Mingyuan/HKF-0730-2023}, Unique-ID = {WOS:001351423100001}, }`
-
 ```
-@article{ WOS:001351423100001, Author = {Li, Mingyuan and Jia, Tong and Wang, Hao and Ma, Bowen and Lu, Hui and Lin, Shuyang and Cai, Da and Chen, Dongyue}, Title = {AO-DETR: Anti-Overlapping DETR for X-Ray Prohibited Items Detection}, Journal = {IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS}, Year = {2024}, Month = {2024 NOV 6}, DOI = {10.1109/TNNLS.2024.3487833}, EarlyAccessDate = {NOV 2024}, ISSN = {2162-237X}, EISSN = {2162-2388}, ResearcherID-Numbers = {Lin, Shuyang/LQI-9244-2024 ma, bowen/HGU-6694-2022 Li, Mingyuan/HKF-0730-2023}, Unique-ID = {WOS:001351423100001}, }
+@article{ WOS:001351423100001, 
+Author = {Li, Mingyuan and Jia, Tong and Wang, Hao and Ma, Bowen and Lu, Hui and Lin, Shuyang and Cai, Da and Chen, Dongyue}, 
+Title = {AO-DETR: Anti-Overlapping DETR for X-Ray Prohibited Items Detection}, 
+Journal = {IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS}, 
+Year = {2024}, 
+Month = {2024 NOV 6}, 
+DOI = {10.1109/TNNLS.2024.3487833}, 
+EarlyAccessDate = {NOV 2024}, 
+ISSN = {2162-237X}, 
+EISSN = {2162-2388}, 
+ResearcherID-Numbers = {Lin, Shuyang/LQI-9244-2024
+ ma, bowen/HGU-6694-2022
+ Li, Mingyuan/HKF-0730-2023}, 
+Unique-ID = {WOS:001351423100001}, 
+}
 ```
 
 ![architecture.jpg](./assets/architecture.jpg)
@@ -38,3 +53,4 @@ mmcv 2.0.1
 ```
 
 具体安装教程参见[mmdetection官网教程3.1.0版本](https://mmdetection.readthedocs.io/en/v3.1.0/get_started.html)
+
