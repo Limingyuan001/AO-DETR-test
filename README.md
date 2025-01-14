@@ -30,6 +30,7 @@ Year = {2024}, Month = {2024 NOV 6}, DOI = {10.1109/TNNLS.2024.3487833}, EarlyAc
 
 ![architecture.jpg](./assets/1733723772081-architecture.jpg)
 
+<!-- 
 🚀️ 🚀️ 🚀️ PIXray Dataset Download
 
 **PIXray in COCO format 独家链接！！！**
@@ -38,6 +39,7 @@ Year = {2024}, Month = {2024 NOV 6}, DOI = {10.1109/TNNLS.2024.3487833}, EarlyAc
 I have put together a copy of the PIXray dataset in coco format, which can be downloaded via connection[PIXray_coco](https://drive.google.com/drive/folders/1jkLaB1YVMaxDZ6Qv84ad5zHIXd80thAr?usp=sharing)
 
 ## **Requirements！**
+-->
 
 ```python
 python 3.9.17
@@ -47,4 +49,3 @@ mmcv 2.0.1
 ```
 
 具体安装教程参见[mmdetection官网教程3.1.0版本](https://mmdetection.readthedocs.io/en/v3.1.0/get_started.html)
-
