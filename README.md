@@ -17,7 +17,7 @@ PIXray，OPIXray，HIXray数据集都可以运行，只需要更换config文件�
 
 ## 模型权重下载
 
-- 链接: [AO-DETR_r50_PIXray_320(AP=56.6) 训练好的权重（Google Drive）](https://drive.google.com/file/d/1zmkMCqTZ4BqtqH1RBSpdhnK6x0DDRExk/view?usp=sharing)
+- 链接: [AO-DETR_r50_PIXray_320(AP=65.6) 训练好的权重（Google Drive）](https://drive.google.com/file/d/1zmkMCqTZ4BqtqH1RBSpdhnK6x0DDRExk/view?usp=sharing)
 - 适用版本: 与下方 Requirements 中的 Python/PyTorch/MMDetection 版本一致
 - 用途: 复现实验主要结果或作为微调初始化权重
 
