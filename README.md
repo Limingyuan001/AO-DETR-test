@@ -15,6 +15,17 @@ DINO和其他Deformable DETR-based variants可以参考train_ao-detr.py中的注
 
 PIXray，OPIXray，HIXray数据集都可以运行，只需要更换config文件即可
 
+## 模型权重下载
+
+- 链接: [AO-DETR_r50_PIXray_320(AP=56.6) 训练好的权重（Google Drive）](https://drive.google.com/file/d/1zmkMCqTZ4BqtqH1RBSpdhnK6x0DDRExk/view?usp=sharing)
+- 适用版本: 与下方 Requirements 中的 Python/PyTorch/MMDetection 版本一致
+- 用途: 复现实验主要结果或作为微调初始化权重
+
+使用方法:
+- 将权重文件下载到本地任意路径（例如 `checkpoints/aodetr.pth`）
+- 在对应的配置文件中设置 `load_from = "你的/权重/文件路径.pth"`，或在命令行通过 `--cfg-options load_from=你的/权重/文件路径.pth` 进行覆盖
+
+
 ## 🎉️🎉️🎉️Cite
 
 **本工作的论文《### [AO-DETR: Anti-Overlapping DETR for X-Ray Prohibited Items Detection](https://ieeexplore.ieee.org/document/10746383/)》已经录用在TNNLS期刊上，目前处于Early Access状态！！！
